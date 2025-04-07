@@ -21,7 +21,7 @@ const BentoTilt = ({ children, className = '' }) => {
         setTransformStyle(newTransform)
     }
 
-    const handleMouseLeave = (e) => {
+    const handleMouseLeave = () => {
         setTransformStyle('')
     }
 
@@ -59,15 +59,15 @@ const Features = () => {
         <section className='bg-black pb-52'>
             <div className='container mx-auto px-3 md:px-10'>
                 <div className='px-5 py-32'>
-                    <p className='font-circular-web text-lg text-blue-50'>Into the metagame layer</p>
+                    <p className='font-circular-web text-lg text-blue-50'>What Awaits You at Immersia</p>
                     <p className='max-w-md font-circular-web text-lg text-blue-50 opacity-50'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas blanditiis molestias ipsam?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque adipisci exercitationem sed.</p>
 
                 </div>
                 <BentoTilt className='border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]'>
                     <BentoCard
                         src='videos/feature-1.mp4'
-                        title={<>radi<b>n</b>t</>}
-                        description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas blanditiis molestias ipsam?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque'
+                        title={<><b>N</b>ext-Gen <b>V</b>R Game Z<b>o</b>nes</>}
+                        description='Step into hyper-realistic worlds with cutting-edge VR gear and motion tracking.'
 
                     />
                 </BentoTilt>
@@ -75,22 +75,22 @@ const Features = () => {
                     <BentoTilt className='bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2'>
                         <BentoCard
                             src='videos/feature-2.mp4'
-                            title={<>zig<b>m</b>a</>}
-                            description='Lorem ipsum dolor sit amet, consectetur adipisicing elit.'
+                            title={<>Immersi<b>v</b>e 360° VR Cin<b>e</b>ma</>}
+                            description='Experience stories like never before — be inside the movie.'
                         />
                     </BentoTilt>
                     <BentoTilt className='bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0'>
                         <BentoCard
                             src='videos/feature-3.mp4'
-                            title={<>n<b>e</b>xus</>}
-                            description='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, laboriosam.'
+                            title={<>Aug<b>m</b>ented Re<b>a</b>lit<b>y</b> Puzzle Roo<b>m</b>s</>}
+                            description='Think escape room meets sci-fi tech.'
                         />
                     </BentoTilt>
                     <BentoTilt className='bento-tilt_1 me-14 md:col-span-1 md:me-0'>
                         <BentoCard
                             src='videos/feature-4.mp4'
-                            title={<>az<b>u</b>l</>}
-                            description='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, laboriosam.'
+                            title={<>M<b>u</b>ltipla<b>y</b>er B<b>a</b>ttle Are<b>n</b>as</>}
+                            description='Challenge your friends or team up in cooperative VR missions.'
                         />
                     </BentoTilt>
                     <BentoTilt className='bento-tilt_2'>
