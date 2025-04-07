@@ -102,7 +102,7 @@ const Navbar = () => {
 
             {/* Toaster */}
             {showToaster && (
-                <div className="fixed top-20 right-6 z-50 w-[320px] rounded-2xl border border-blue-200 bg-gradient-to-br from-white to-blue-50 opacity-65 p-4 shadow-lg animate-fade-in">
+                <div className="hidden sm:fixed sm:top-20 sm:right-6 sm:z-50 sm:w-[320px] sm:rounded-2xl sm:border sm:border-blue-200 sm:bg-gradient-to-br sm:from-white sm:to-blue-50 sm:opacity-65 sm:p-4 sm:shadow-lg sm:animate-fade-in">
                     <div className="flex items-start justify-between gap-3">
                         <div className="flex items-start gap-3">
                             <div className="flex h-10 w-10 items-center justify-center rounded-full bg-blue-100 text-blue-600">
@@ -127,6 +127,7 @@ const Navbar = () => {
                     </div>
                 </div>
             )}
+
 
         </>
     )

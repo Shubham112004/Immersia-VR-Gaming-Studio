@@ -20,7 +20,7 @@ const Footer = () => {
                         </a>
                     ))}
                 </div>
-                <a href="#privacy-policy" className='text-center text-sm hover:underline md:text-right'>
+                <a href="#privacy-policy" className='text-center mr-4 text-sm hover:underline md:text-right'>
                     Privacy Policy
                 </a>
             </div>
